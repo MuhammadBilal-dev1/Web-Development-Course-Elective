@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 02 - Task 4</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 20px;
+        max-width: 800px;
+        margin: auto;
+      }
+      header,
+      nav,
+      main,
+      aside,
+      footer,
+      article {
+        border: 1px solid #333;
+        border-radius: 8px;
+        margin: 5px;
+        padding: 10px;
+        display: block;
+      }
+      /* Colors based on image */
+      header {
+        background-color: #f25f5c;
+        height: 60px;
+      }
+      .top-nav {
+        background-color: #99e2f2;
+      }
+      footer {
+        background-color: #42b842;
+        height: 40px;
+      }
+
+      /* Layout flexbox */
+      .container {
+        display: flex;
+        gap: 10px;
+      }
+      main {
+        background-color: #d3d3d3;
+        flex: 3;
+      }
+      aside {
+        background-color: #e6e600;
+        flex: 1;
+        min-height: 300px;
+      }
+
+      /* Articles inside main */
+      article {
+        background-color: #f4978e;
+        margin: 15px;
+      }
+      .inner-nav {
+        background-color: #99e2f2;
+        margin: 10px;
+      }
+
+      small {
+        display: block;
+        font-size: 0.7em;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Task-4: Create a web page that display the below layout</h3>
+
+    <header>
+      &lt;header&gt;
+      <br /><small>&lt;nav&gt;</small>
+    </header>
+
+    <nav class="top-nav">&lt;nav&gt;</nav>
+
+    <div class="container">
+      <main>
+        &lt;main&gt;
+        <article>
+          &lt;article&gt;
+          <small>&lt;header&gt;<br />contenido<br />&lt;footer&gt;</small>
+        </article>
+        <article>
+          &lt;article&gt;
+          <small>&lt;header&gt;<br />contenido<br />&lt;footer&gt;</small>
+        </article>
+        <article>
+          &lt;article&gt;
+          <small>&lt;header&gt;<br />contenido<br />&lt;footer&gt;</small>
+        </article>
+        <nav class="inner-nav">&lt;nav&gt;</nav>
+      </main>
+
+      <aside>
+        &lt;aside&gt;
+        <br /><small>&lt;nav&gt;</small>
+      </aside>
+    </div>
+
+    <footer>&lt;footer&gt;</footer>
+  </body>
+</html>

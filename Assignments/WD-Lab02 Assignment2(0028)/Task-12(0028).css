@@ -1,0 +1,123 @@
+body {
+  background-color: #64ffda; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.page-wrapper {
+  width: 90%;
+  max-width: 900px;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.header-section {
+  margin-bottom: 30px;
+}
+
+.header-section h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.header-section p {
+  color: #333;
+  line-height: 1.5;
+}
+
+.contact-card {
+  display: flex;
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.form-side {
+  flex: 2;
+  padding: 40px;
+}
+
+.form-side h3 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.input-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.field input, .field textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 0;
+  outline: none;
+  font-size: 14px;
+}
+
+.field textarea {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 80px;
+  resize: none;
+  margin-top: 10px;
+}
+
+.send-btn {
+  background-color: #1a1aff;
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(26, 26, 255, 0.3);
+}
+
+.info-side {
+  flex: 1;
+  background-color: #1a1aff;
+  color: white;
+  padding: 40px;
+}
+
+.info-side h3 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.info-item {
+  margin-bottom: 25px;
+}
+
+.info-item span {
+  display: block;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.info-item p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
